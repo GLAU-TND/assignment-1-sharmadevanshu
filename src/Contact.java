@@ -4,7 +4,7 @@ class Contact {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         Primary obj = new Primary();
-        System.out.println("Welcome to Devanshu's contact application, enjoy using!");
+        System.out.println("Welcome to Devanshu's contact application, enjoy!");
         int x = 0;
         while (x != 5) {
             System.out.println("<>-----------x------x----------<>");
@@ -31,10 +31,10 @@ class Contact {
                     break;
                 case 5:
                     x = 5;
-                    System.out.println("Thank you for using my App..");
+                    System.out.println("thank you for using my application");
                     break;
                 default:
-                    System.out.println("Invalid select!! Please select a valid select.");
+                    System.out.println("oops! options out of bound ;p, try again!");
             }
         }
         sc.close();
